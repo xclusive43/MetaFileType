@@ -7,7 +7,11 @@ MetaFileType is a Java library designed to detect the type of a file from JSON m
 - Supports multiple file types: delimited, CSV, JSON, Avro, Parquet, Excel, and unknown.
 
 ## Installation
-To use MetaFileType in your Maven project, add the following dependency to your `pom.xml`:
+# Importing MetaFileType Library
+
+## Maven Dependency
+
+To include MetaFileType in your Maven project, add the following dependency to your `pom.xml` file:
 
 ```xml
 <dependency>
@@ -16,6 +20,15 @@ To use MetaFileType in your Maven project, add the following dependency to your 
     <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
+## Manual JAR Import
+If you prefer to manually import the .jar file into your project, follow these steps:
+
+Download the .jar file from here.
+In your IDE (e.g., IntelliJ IDEA, Eclipse), right-click on your project.
+Select "Add as Library" or "Add External JARs" depending on your IDE.
+Choose the downloaded .jar file and click "OK" to add it to your project's build path.
+
+
 # Usage
 ## Detecting File Type from JSON File
 ```java
