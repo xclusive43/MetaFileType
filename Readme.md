@@ -71,7 +71,7 @@ mvn test
 ```
 ## Test Report
 Here's the test report for the MetaFileType library:
-[Test Report](MetaFileType_Detector.html)
+[Test Report](MetaFileType_Detector)
 
 # Contributing
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
