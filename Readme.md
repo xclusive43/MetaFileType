@@ -22,13 +22,29 @@ To include MetaFileType in your Maven project, add the following dependency to y
 ```
 ## Manual JAR Import
 If you prefer to manually import the .jar file into your project, follow these steps:
+```html
+<li>
+    <ul>
+        Download the .jar file from here.
+    </ul>
+    <ul>In your IDE (e.g., IntelliJ IDEA, Eclipse), right-click on your project.</ul>
+    <ul>Select "Add as Library" or "Add External JARs" depending on your IDE.</ul>
+    <ul>Choose the downloaded .jar file and click "OK" to add it to your project's build path.</ul>
+</li>
+```
+## Gradle Dependency (Optional)
+For Gradle projects, add the following dependency to your build.gradle file:
+```groovy
+implementation 'org.xclusive43:MetaFileType:1.0-SNAPSHOT'
+```
+These steps will allow you to easily import the MetaFileType library into your project and start using it.
+```html
+<p>
+    This structure provides users with clear and concise instructions on how to import your library into their projects, catering to different preferences and build systems. Adjust the instructions as needed based on the specifics of your library and its distribution.
+</p>
 
-Download the .jar file from here.
-In your IDE (e.g., IntelliJ IDEA, Eclipse), right-click on your project.
-Select "Add as Library" or "Add External JARs" depending on your IDE.
-Choose the downloaded .jar file and click "OK" to add it to your project's build path.
 
-
+```
 # Usage
 ## Detecting File Type from JSON File
 ```java
